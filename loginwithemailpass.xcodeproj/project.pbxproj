@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		554FFEF770612F51CB3B2116 /* Pods_loginwithemailpass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7AB961042166D7CF01C3AD /* Pods_loginwithemailpass.framework */; };
+		D42C8E0F21CED6EA00744B84 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42C8E0E21CED6EA00744B84 /* RegisterViewController.swift */; };
+		D45A56CA21F7165400655918 /* ExtensionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A56C921F7165400655918 /* ExtensionClass.swift */; };
+		D46F258D21CEC47C008B79E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F258C21CEC47C008B79E1 /* AppDelegate.swift */; };
+		D46F258F21CEC47C008B79E1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46F258E21CEC47C008B79E1 /* LoginViewController.swift */; };
+		D46F259221CEC47C008B79E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46F259021CEC47C008B79E1 /* Main.storyboard */; };
+		D46F259521CEC47C008B79E1 /* loginwithemailpass.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D46F259321CEC47C008B79E1 /* loginwithemailpass.xcdatamodeld */; };
+		D46F259721CEC47D008B79E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D46F259621CEC47D008B79E1 /* Assets.xcassets */; };
+		D46F259A21CEC47D008B79E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46F259821CEC47D008B79E1 /* LaunchScreen.storyboard */; };
+		D48EB4EE21D006D800AEEE12 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EB4ED21D006D800AEEE12 /* ProfileViewController.swift */; };
+		D48EB4F021D006F900AEEE12 /* EmailNotVerifiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48EB4EF21D006F900AEEE12 /* EmailNotVerifiedViewController.swift */; };
+		D493CACB21CEC4C900A1B08C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D493CACA21CEC4C900A1B08C /* GoogleService-Info.plist */; };
+		D4F6C9D121F5C5B70060D96B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F6C9D021F5C5B70060D96B /* ResetPasswordViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F7AB961042166D7CF01C3AD /* Pods_loginwithemailpass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loginwithemailpass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627C6E042403C22F3FCBD99F /* Pods-loginwithemailpass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginwithemailpass.release.xcconfig"; path = "Pods/Target Support Files/Pods-loginwithemailpass/Pods-loginwithemailpass.release.xcconfig"; sourceTree = "<group>"; };
+		D42C8E0E21CED6EA00744B84 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D45A56C921F7165400655918 /* ExtensionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionClass.swift; sourceTree = "<group>"; };
+		D46F258921CEC47C008B79E1 /* loginwithemailpass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginwithemailpass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46F258C21CEC47C008B79E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D46F258E21CEC47C008B79E1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D46F259121CEC47C008B79E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D46F259421CEC47C008B79E1 /* loginwithemailpass.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = loginwithemailpass.xcdatamodel; sourceTree = "<group>"; };
+		D46F259621CEC47D008B79E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D46F259921CEC47D008B79E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D46F259B21CEC47D008B79E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D48EB4ED21D006D800AEEE12 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D48EB4EF21D006F900AEEE12 /* EmailNotVerifiedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailNotVerifiedViewController.swift; sourceTree = "<group>"; };
+		D493CACA21CEC4C900A1B08C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D4F6C9D021F5C5B70060D96B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		E58505016D306CF2D727D2D1 /* Pods-loginwithemailpass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginwithemailpass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-loginwithemailpass/Pods-loginwithemailpass.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D46F258621CEC47C008B79E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554FFEF770612F51CB3B2116 /* Pods_loginwithemailpass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1998598E3AF9485FA3B900AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E58505016D306CF2D727D2D1 /* Pods-loginwithemailpass.debug.xcconfig */,
+				627C6E042403C22F3FCBD99F /* Pods-loginwithemailpass.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D46F258021CEC47C008B79E1 = {
+			isa = PBXGroup;
+			children = (
+				D46F258B21CEC47C008B79E1 /* loginwithemailpass */,
+				D46F258A21CEC47C008B79E1 /* Products */,
+				1998598E3AF9485FA3B900AA /* Pods */,
+				DB279657CB8F6CBB2C790DFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D46F258A21CEC47C008B79E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D46F258921CEC47C008B79E1 /* loginwithemailpass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D46F258B21CEC47C008B79E1 /* loginwithemailpass */ = {
+			isa = PBXGroup;
+			children = (
+				D493CACA21CEC4C900A1B08C /* GoogleService-Info.plist */,
+				D46F258C21CEC47C008B79E1 /* AppDelegate.swift */,
+				D45A56C921F7165400655918 /* ExtensionClass.swift */,
+				D46F258E21CEC47C008B79E1 /* LoginViewController.swift */,
+				D48EB4ED21D006D800AEEE12 /* ProfileViewController.swift */,
+				D48EB4EF21D006F900AEEE12 /* EmailNotVerifiedViewController.swift */,
+				D42C8E0E21CED6EA00744B84 /* RegisterViewController.swift */,
+				D4F6C9D021F5C5B70060D96B /* ResetPasswordViewController.swift */,
+				D46F259021CEC47C008B79E1 /* Main.storyboard */,
+				D46F259621CEC47D008B79E1 /* Assets.xcassets */,
+				D46F259821CEC47D008B79E1 /* LaunchScreen.storyboard */,
+				D46F259B21CEC47D008B79E1 /* Info.plist */,
+				D46F259321CEC47C008B79E1 /* loginwithemailpass.xcdatamodeld */,
+			);
+			path = loginwithemailpass;
+			sourceTree = "<group>";
+		};
+		DB279657CB8F6CBB2C790DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F7AB961042166D7CF01C3AD /* Pods_loginwithemailpass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D46F258821CEC47C008B79E1 /* loginwithemailpass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D46F259E21CEC47D008B79E1 /* Build configuration list for PBXNativeTarget "loginwithemailpass" */;
+			buildPhases = (
+				593B99BAF721DDE825139055 /* [CP] Check Pods Manifest.lock */,
+				D46F258521CEC47C008B79E1 /* Sources */,
+				D46F258621CEC47C008B79E1 /* Frameworks */,
+				D46F258721CEC47C008B79E1 /* Resources */,
+				9AA19CC37C4CFEFAC8D207A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loginwithemailpass;
+			productName = loginwithemailpass;
+			productReference = D46F258921CEC47C008B79E1 /* loginwithemailpass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D46F258121CEC47C008B79E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = jonitefke;
+				TargetAttributes = {
+					D46F258821CEC47C008B79E1 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = D46F258421CEC47C008B79E1 /* Build configuration list for PBXProject "loginwithemailpass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D46F258021CEC47C008B79E1;
+			productRefGroup = D46F258A21CEC47C008B79E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D46F258821CEC47C008B79E1 /* loginwithemailpass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D46F258721CEC47C008B79E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46F259A21CEC47D008B79E1 /* LaunchScreen.storyboard in Resources */,
+				D493CACB21CEC4C900A1B08C /* GoogleService-Info.plist in Resources */,
+				D46F259721CEC47D008B79E1 /* Assets.xcassets in Resources */,
+				D46F259221CEC47C008B79E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		593B99BAF721DDE825139055 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loginwithemailpass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AA19CC37C4CFEFAC8D207A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-loginwithemailpass/Pods-loginwithemailpass-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-loginwithemailpass/Pods-loginwithemailpass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D46F258521CEC47C008B79E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46F258F21CEC47C008B79E1 /* LoginViewController.swift in Sources */,
+				D46F259521CEC47C008B79E1 /* loginwithemailpass.xcdatamodeld in Sources */,
+				D45A56CA21F7165400655918 /* ExtensionClass.swift in Sources */,
+				D48EB4EE21D006D800AEEE12 /* ProfileViewController.swift in Sources */,
+				D48EB4F021D006F900AEEE12 /* EmailNotVerifiedViewController.swift in Sources */,
+				D46F258D21CEC47C008B79E1 /* AppDelegate.swift in Sources */,
+				D42C8E0F21CED6EA00744B84 /* RegisterViewController.swift in Sources */,
+				D4F6C9D121F5C5B70060D96B /* ResetPasswordViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D46F259021CEC47C008B79E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46F259121CEC47C008B79E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D46F259821CEC47D008B79E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D46F259921CEC47D008B79E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D46F259C21CEC47D008B79E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D46F259D21CEC47D008B79E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D46F259F21CEC47D008B79E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58505016D306CF2D727D2D1 /* Pods-loginwithemailpass.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = loginwithemailpass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonitefke.loginwithemailpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D46F25A021CEC47D008B79E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 627C6E042403C22F3FCBD99F /* Pods-loginwithemailpass.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = loginwithemailpass/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonitefke.loginwithemailpass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D46F258421CEC47C008B79E1 /* Build configuration list for PBXProject "loginwithemailpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46F259C21CEC47D008B79E1 /* Debug */,
+				D46F259D21CEC47D008B79E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46F259E21CEC47D008B79E1 /* Build configuration list for PBXNativeTarget "loginwithemailpass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D46F259F21CEC47D008B79E1 /* Debug */,
+				D46F25A021CEC47D008B79E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D46F259321CEC47C008B79E1 /* loginwithemailpass.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D46F259421CEC47C008B79E1 /* loginwithemailpass.xcdatamodel */,
+			);
+			currentVersion = D46F259421CEC47C008B79E1 /* loginwithemailpass.xcdatamodel */;
+			path = loginwithemailpass.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D46F258121CEC47C008B79E1 /* Project object */;
+}
