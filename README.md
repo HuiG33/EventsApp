@@ -1,5 +1,4 @@
-# EventsApp
-# Work in progress
+# EventsApp, Work in progress...
 <br>
 Project done with Xcode and Swift. Using Google Firebase for the user authentication and database.
 <br>
