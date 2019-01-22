@@ -2,7 +2,7 @@
 <br>
 Project done with Xcode and Swift. Using Google Firebase for the user authentication and database.
 <br>
-Simplified the idea of the application is, that the user can create events (private or public).
+Simplified, the idea of the application is, that the user can create events (private or public).
 <br>
 If private, user can invite friends to join and only invited people can see the event.
 <br>
